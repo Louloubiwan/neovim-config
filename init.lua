@@ -1,0 +1,6 @@
+vim.cmd("set clipboard=unnamedplus")
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
+require("options")
+require("keymaps")
+require("autocmds")
+require("lazy-setup")
